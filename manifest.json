@@ -1,0 +1,28 @@
+{
+    "name":"Pomodoro ext",
+    "description": "CS50 Final Project. Chrome Pomodoro extension.",
+    "version": "0.1.0",
+    "manifest_version": 2,
+    "icons": {
+        "16": "/media/cs50duck-16x16.png",
+        "32": "/media/cs50duck-32x32.png",
+        "48": "/media/cs50duck-48x48.png",
+        "128": "/media/cs50duck-128x128.png"
+    },
+
+    "background": {
+        "scripts": ["./JavaScript/background.js"]
+    },
+
+    "options_page": "html/option.html",
+
+    "browser_action": {
+        "default_popup": "html/popup.html",
+        "default_title": "Pomodoro Timer"
+    },
+
+    "permissions": [
+        "tabs",
+        "storage"
+    ]
+}

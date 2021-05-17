@@ -1,0 +1,32 @@
+body {
+    background: #FF7F7F;
+}
+
+h1 {
+    padding: 2px 5px;
+    color: white;
+    white-space: nowrap;
+}
+
+select {
+    padding: 0px;
+}
+
+label {
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+
+#startbutton {
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+#stopbutton {
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+#img {
+    padding: 2px;
