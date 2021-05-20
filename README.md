@@ -40,22 +40,23 @@ Yes, there are. But I wanted to build something entirely different from what we 
 ## Functionality of the extension
 
 After installing the extension you should see a little icon in the top right of your browser with the CS50 duck on it. 
-Click it and you will have a dropdown menu with the amount of work time you want and the amount of break time in a dropdown right below it.
-The time increments in steps of 5 minutes and maxes out at 90 minutes. *
+Click it and a window pops up with a picture of the CS50 rubber duck as well as three buttons. A start, a pause and a stop button. Underneath you'll find two input fields. One for the time you want to work and the amount of break time you give yourself. Input the values (min 0, max 180*) and click start to start the countdown. A number will appear on the rubber duck and count down to zero while also displaying what kind of cycle you are currently on. Once the counter is down to zero you will hear a bell ringing, telling you to either start or stop working. This is just so you will also be alerted if you decide to minimize the counter.
 
-Underneath, you will see a **start button** which will start the timer. The intervalls will continuously reset itself until you click the **stop button** below it.
+This will repeat itself coninuously until you click the stop button.
 
 
-**as to not entice people to entirely forget about the timer if they set it to 5+ hours. I also don't think that anyone that wants to utilize this extension would work in more than 90 minute periods.*
+**as to not entice people to entirely forget about the timer if they set it to 5+ hours. I also don't think that anyone that wants to utilize this extension would work in more than 180 minute periods.*
 
 
 ## Technologies used
 
-I used a simple stack of vanilla JavaScript, HTML and CSS.
-JavaScript gives me the functionality, HTML the structure of the modal and CSS to make it all look a bit more appealing. 
+I used a simple stack of vanilla JavaScript, HTML, CSS and made use of the functionality provided by Google. 
+There is a JavaScript running in the background that, on click of the extensions icon, will first create a popup window with the popup.html file using the *chrome.windows.create function*.
+Once the DOM is loaded the pomodoro timer functions are active and ready to be used. 
 
 
-# Credits:
+
+# Sources:
 
 #### Material and ressources used to make this project:
 
@@ -64,3 +65,10 @@ JavaScript gives me the functionality, HTML the structure of the modal and CSS t
 
 - Build your own COUNTDOWN TIMER in 15 lines of JavaScript code
  (by Code with Ania Kubow | https://www.youtube.com/watch?v=vSV_Ml2_A88)
+
+- Create a Pomodoro Clock with JavaScript
+ (by AlbertoM | https://dev.to/albertomontalesi/tutorial-create-a-pomodoro-clock-with-javascript-13om)
+
+- Google documentation on chrome.windows
+ (by some helpful Google engineer (thx) | https://chrome-apps-doc2.appspot.com/extensions/windows.html)
+
