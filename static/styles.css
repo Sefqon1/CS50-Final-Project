@@ -1,32 +1,52 @@
-body {
-    background: #FF7F7F;
-}
-
-h1 {
-    padding: 2px 5px;
-    color: white;
+h1  {
+    font-family: Garamond, serif;
+    font-weight: bold;
     white-space: nowrap;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
 }
 
-select {
-    padding: 0px;
+#image {
+    margin-left: 25px;
+    margin-bottom: 5px;
+    width: 8em;
+    height: 8em;
+    background-image: url(/media/cs50duck-128x128.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+
+#image-overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 50%;
+    padding-top: 45px;
+}
+
+
+
+#pomodoro-sessions {
+    margin-top: 10px;
+}
+
+#timer {
+    font-size: x-large;
+    font-weight: bold;
+    color: white;
+}
+
+button {
+    margin-bottom: 5px;
+}
+
+#break-time {
+    margin-top: 5px;
 }
 
 label {
-    padding-top: 2px;
-    padding-bottom: 2px;
+    font-weight: bold;
 }
-
-
-#startbutton {
-    padding-top: 2px;
-    padding-bottom: 2px;
-}
-
-#stopbutton {
-    padding-top: 2px;
-    padding-bottom: 2px;
-}
-
-#img {
-    padding: 2px;

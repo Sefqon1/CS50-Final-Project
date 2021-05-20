@@ -54,4 +54,13 @@ Underneath, you will see a **start button** which will start the timer. The inte
 I used a simple stack of vanilla JavaScript, HTML and CSS.
 JavaScript gives me the functionality, HTML the structure of the modal and CSS to make it all look a bit more appealing. 
 
-...*more to come*.
+
+# Credits:
+
+#### Material and ressources used to make this project:
+
+- How To Build A Chrome Extension (Manifest V2) (2021 Web Development) 
+ (by An Object is A | https://www.youtube.com/watch?v=-dhMbVEreII&t=1293s)
+
+- Build your own COUNTDOWN TIMER in 15 lines of JavaScript code
+ (by Code with Ania Kubow https://www.youtube.com/watch?v=vSV_Ml2_A88)
