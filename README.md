@@ -1,5 +1,5 @@
 # Pomodoro rubber duck
-#### Video Demo:  #TODO
+#### Video Demo:  https://youtu.be/0FtsDSn3auc
 #### Description:
 
 ## What is Pomodoro and how do I use it??
