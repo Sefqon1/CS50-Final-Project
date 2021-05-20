@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
 
     const timer = document.querySelector('#timer');
+    const typeField = document.querySelector('#type');
 
     const startBtn = document.querySelector('#start-button');
     const pauseBtn = document.querySelector('#pause-button');
@@ -27,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     let sessionTime = 0;
 
-    let type = 'work';
+    let type = 'Work';
 
     let isStopped = true;
 
@@ -73,6 +74,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 clockTimer = setInterval(() => {
                     stepDown();
                     displayTimeLeft();
+                    displayType();
                 }, 1000)
                 isRunning = true;
             }
@@ -93,6 +95,13 @@ document.addEventListener('DOMContentLoaded', () => {
         if (hours > 10) result = `${hours}:`;
         result += `${addZeroes(minutes)}:${addZeroes(seconds)}`;
         timer.innerHTML = result.toString();
+        console.log(result);
+    }
+
+    const displayType = () => {
+        let currentType = '';
+        currentType = type;
+        typeField.innerHTML = currentType.toString();
     }
 
     const stopClock = () => {

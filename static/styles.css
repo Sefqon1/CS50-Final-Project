@@ -39,9 +39,11 @@ h1  {
     color: white;
 }
 
-button {
-    margin-bottom: 5px;
+#type {
+    color: white;
+
 }
+
 
 #break-time {
     margin-top: 5px;

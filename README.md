@@ -63,4 +63,4 @@ JavaScript gives me the functionality, HTML the structure of the modal and CSS t
  (by An Object is A | https://www.youtube.com/watch?v=-dhMbVEreII&t=1293s)
 
 - Build your own COUNTDOWN TIMER in 15 lines of JavaScript code
- (by Code with Ania Kubow https://www.youtube.com/watch?v=vSV_Ml2_A88)
+ (by Code with Ania Kubow | https://www.youtube.com/watch?v=vSV_Ml2_A88)
