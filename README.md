@@ -1,4 +1,4 @@
-# Pomodoro Chrome extension
+# Pomodoro rubber duck
 #### Video Demo:  #TODO
 #### Description:
 

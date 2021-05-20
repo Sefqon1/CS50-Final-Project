@@ -1,5 +1,5 @@
 {
-    "name":"Pomodoro ext",
+    "name":"Pomodoro rubber duck",
     "description": "CS50 Final Project. Chrome Pomodoro extension.",
     "version": "0.1.0",
     "manifest_version": 2,
@@ -16,7 +16,7 @@
         },
 
     "browser_action": {
-        "default_title": "Pomodoro Timer"
+        "default_title": "Pomodoro rubber duck"
     },
 
     "permissions": [

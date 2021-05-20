@@ -178,7 +178,7 @@ chrome.browserAction.onClicked.addListener(function(tab) {
             li.appendChild(text);
             sessionList.appendChild(li);
 
-        }
+        } 
 
         const updateTime = () => {
             //If type = work then it checks whether the timeLeft is hte same as the updated time
